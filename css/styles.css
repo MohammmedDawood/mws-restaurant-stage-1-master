@@ -365,6 +365,9 @@ nav h1 a {
 /* ====================== Media Quires ====================== */
 
 @media only screen and (max-width: 768px) {
+  body{
+    width: 100%;
+  }
   #restaurants-list li {
     min-width: 45%;
   }
