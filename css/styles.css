@@ -238,6 +238,8 @@ nav h1 a {
   text-transform: uppercase;
 }
 
+
+
 /* ====================== Restaurant Details ====================== */
 .inside header {
   top: 0;
@@ -327,6 +329,7 @@ nav h1 a {
   font-weight: 300;
   letter-spacing: -1px;
   padding-bottom: 1pt;
+  text-align: justify;
 }
 
 #reviews-list {
@@ -344,6 +347,18 @@ nav h1 a {
   margin-right: auto;
   font-size: 1rem;
   width: 80%;
+  border-top-left-radius: 25px;
+  /* background-clip: padding-box; */
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #3397db;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  border-top-left-radius: 25px;
+  /* height: 100%; */
 }
 
 #reviews-list li p {
@@ -365,9 +380,14 @@ nav h1 a {
 /* ====================== Media Quires ====================== */
 
 @media only screen and (max-width: 768px) {
-  body{
+  body {
     width: 100%;
   }
+
+  #restaurant-img {
+    width: 90vw;
+  }
+
   #restaurants-list li {
     min-width: 45%;
   }
