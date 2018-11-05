@@ -71,7 +71,7 @@ section {
 }
 
 #footer {
-  background-color: #333;
+  background-color: #000;
   color: #aaa;
   font-size: 8pt;
   letter-spacing: 1px;
@@ -86,7 +86,7 @@ section {
 nav {
   width: initial;
   /* min-height: 2rem; */
-  background-color: #333;
+  background-color: #000;
   text-align: center;
   border-bottom: 3px solid #eee;
 }
@@ -114,7 +114,6 @@ nav h1 a {
   font-size: 1rem;
   margin: 0;
   border-bottom: 3px solid #eee;
-
 }
 
 /* Display list items side by side */
@@ -167,7 +166,6 @@ nav h1 a {
   font-weight: normal;
   line-height: 1;
   margin: 0 20px;
-
 }
 
 .filter-options select {
@@ -183,9 +181,10 @@ nav h1 a {
 
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
-  background-color: #333;
+  background-color: #1c1f27;
   list-style: outside none none;
   margin-bottom: 0px;
+  margin-top: 0px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -211,7 +210,7 @@ nav h1 a {
 #restaurants-list li h1 {
   color: #3397db;
   font-family: Arial, sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: bold;
   max-height: 1.55rem;
   letter-spacing: 0;
@@ -221,14 +220,18 @@ nav h1 a {
   text-transform: uppercase;
 }
 
-#restaurants-list p {
+#restaurants-list li p {
   text-align: center;
   height: 1.5rem;
+  font-size: 1.2rem;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-top: 2%;
 }
 
 #restaurants-list li a {
   background-color: #3397db;
-  border-bottom: 3px solid #eee;
+  border-bottom: 3px solid #fff;
   color: #fff;
   display: block;
   margin: auto;
@@ -236,9 +239,8 @@ nav h1 a {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  font-size: 1.3rem;
 }
-
-
 
 /* ====================== Restaurant Details ====================== */
 .inside header {
@@ -271,7 +273,6 @@ nav h1 a {
   text-transform: uppercase;
   width: initial;
   border-top: 3px solid #eee;
-
 }
 
 #restaurant-name {
@@ -287,7 +288,6 @@ nav h1 a {
 
 #restaurant-img {
   width: 80%;
-
 }
 
 #restaurant-address {
@@ -336,7 +336,6 @@ nav h1 a {
   margin: 0;
   padding: 0;
   display: block;
-
 }
 
 #reviews-list li {
@@ -364,7 +363,7 @@ nav h1 a {
 #reviews-list li p {
   margin: 0 0 10px;
   font-weight: 1000;
-  color: #333;
+  color: #000;
 }
 
 #restaurant-hours td {
@@ -391,7 +390,6 @@ nav h1 a {
   #restaurants-list li {
     min-width: 45%;
   }
-
 }
 
 @media only screen and (max-width: 426px) {

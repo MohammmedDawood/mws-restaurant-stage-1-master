@@ -25,18 +25,18 @@
   </header>
 
   <main id="maincontent">
-    <section id="map-container" tabindex="-1" aria-live="off">
-      <div id="map"></div tabindex="-1" aria-live="off">
+    <section id="map-container">
+      <div id="map" tabindex="-1" role="application" aria-label="map"></div>
     </section>
     <section>
       <div class="filter-options">
         <h2>Filter Results</h2>
-        <label for="neighborhoods-select" hidden>Neighborhoods</label>
-        <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
+        <!-- <label for="neighborhoods-select">Neighborhoods</label> -->
+        <select aria-label="neighborhoods" id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
           <option value="all">All Neighborhoods</option>
         </select>
-        <label for="cuisines-select" hidden>cuisines</label>
-        <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
+        <!-- <label for="cuisines-select">cuisines</label> -->
+        <select aria-label="cuisines" id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
           <option value="all">All Cuisines</option>
         </select>
       </div>
