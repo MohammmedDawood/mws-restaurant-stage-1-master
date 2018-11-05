@@ -32,3 +32,4 @@ Most of the code in this project has been written to the ES6 JavaScript specific
 
 1. [Service Worker implementation](https://www.youtube.com/watch?v=ksXwaWHCW6k)
 2. [Service Worker understanding](https://developers.google.com/web/fundamentals/primers/service-workers/)
+3. [A11ycasts with Rob Dodson accessibility](https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g)
